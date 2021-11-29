@@ -16,12 +16,12 @@ export default new Router({
       component: Home
     },
     {
-      path: '/integration',
-      redirect: '/integration/dashboard/main',
+      path: '/integrations',
+      redirect: '/integrations/dashboard/main',
       pathToRegexpOptions: {strict: true},
     },
     {
-      path: '/integration/',
+      path: '/integrations/',
       component: IntegrationLayout,
       pathToRegexpOptions: {strict: true},
       children: [

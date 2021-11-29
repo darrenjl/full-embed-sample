@@ -21,7 +21,7 @@
         <div class="MainMenu__item MainMenu__item_analytics">
           Analytics
         </div>
-        <RouterLink class="MainMenu__item MainMenu__item_integration" to="/integration"
+        <RouterLink class="MainMenu__item MainMenu__item_integration" to="/integrations"
           active-class="MainMenu__item_active">
           Integration
         </RouterLink>

@@ -16,14 +16,14 @@
         :activeOn="['/recipes*']">
         Recipes
       </WorkatoLink>
-      <WorkatoLink class="SidePanel__item" activeClass="SidePanel__item_active" href="/connections"
-        :activeOn="['/connections*']">
-        Connected Apps
-      </WorkatoLink>
-      <WorkatoLink class="SidePanel__item" activeClass="SidePanel__item_active" href="/browse/recipes"
-        :activeOn="['/browse/*', '/custom_adapters/*']">
-        Community
-      </WorkatoLink>
+<!--      <WorkatoLink class="SidePanel__item" activeClass="SidePanel__item_active" href="/connections"-->
+<!--        :activeOn="['/connections*']">-->
+<!--        Connected Apps-->
+<!--      </WorkatoLink>-->
+<!--      <WorkatoLink class="SidePanel__item" activeClass="SidePanel__item_active" href="/browse/recipes"-->
+<!--        :activeOn="['/browse/*', '/custom_adapters/*']">-->
+<!--        Community-->
+<!--      </WorkatoLink>-->
     </div>
   </div>
 </template>

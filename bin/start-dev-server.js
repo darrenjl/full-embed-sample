@@ -14,7 +14,7 @@ concurrently([
     name: 'client',
     // `sleep` is required because Express server should be started before the Vue client for the proxying
     // of XHR requests to work properly
-    command: `sleep 3 && vue-cli-service serve ${args}`,
+    command: `sleep 3 && vue-cli-service serve --port 8084 ${args}`,
     prefixColor: 'white'
   }
 ], {

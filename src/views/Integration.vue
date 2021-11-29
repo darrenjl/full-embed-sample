@@ -33,6 +33,7 @@
 
     async beforeRouteEnter(to, from, next) {
       const token = await getToken();
+      console.log(`https://app.workato.com/direct_link?${encodeURIComponent(to.fullPath)}&workato_dl_token=${token}`);
       next(vm => vm.updateIframeSrc(to.fullPath, token));
     },
 
